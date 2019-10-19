@@ -1,0 +1,1255 @@
+{
+  "code": 200,
+  "message": "查询成功",
+  "result": {
+      "allAuth": [
+          {
+              "action": "/modules/message/sysMessageList:test",
+              "describe": "测试按钮",
+              "status": "1",
+              "type": "1"
+          },
+          {
+              "action": "online:goGenerateCode",
+              "describe": "代码生成按钮",
+              "status": "1",
+              "type": "1"
+          },
+          {
+              "action": "user:form:phone",
+              "describe": "手机号禁用",
+              "status": "1",
+              "type": "2"
+          },
+          {
+              "action": "user:add",
+              "describe": "添加用户按钮",
+              "status": "1",
+              "type": "2"
+          },
+          {
+              "action": "flowable/FlowModelList:test",
+              "describe": "测试按钮",
+              "status": "1",
+              "type": "1"
+          }
+      ],
+      "auth": [
+          {
+              "action": "online:goGenerateCode",
+              "describe": "代码生成按钮",
+              "type": "1"
+          },
+          {
+              "action": "user:add",
+              "describe": "添加用户按钮",
+              "type": "2"
+          },
+          {
+              "action": "flowable/FlowModelList:test",
+              "describe": "测试按钮",
+              "type": "1"
+          }
+      ],
+      "menu": [
+          {
+              "component": "dashboard/Analysis",
+              "id": "9502685863ab87f0ad1134142788a385",
+              "meta": {
+                  "icon": "home",
+                  "keepAlive": false,
+                  "title": "首页"
+              },
+              "name": "dashboard-analysis",
+              "path": "/dashboard/analysis",
+              "route": "1"
+          },
+          {
+              "children": [
+                  {
+                      "component": "flowable/FlowModelList",
+                      "id": "300c35be804aa429c9280529f5784f6d",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "流程模型"
+                      },
+                      "name": "flowable-FlowModelList",
+                      "path": "/flowable/FlowModelList",
+                      "route": "1"
+                  },
+                  {
+                      "component": "layouts/IframePageView",
+                      "id": "a0cfe5630210fae695641806de402c0e",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "流程编辑器",
+                          "url": "http://129.28.149.200:8100/flowable-server/#/processes"
+                      },
+                      "name": "http@--129.28.149.200@8100-flowable-server-#-processes",
+                      "path": "6d244b7ff8c13ece88a54d1e6a74b540",
+                      "route": "1"
+                  },
+                  {
+                      "component": "flowable/ModelList",
+                      "id": "d46e18627aa514ecc7f2166c76069d2d",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "流程设计"
+                      },
+                      "name": "flowable-ModelList",
+                      "path": "/flowable/ModelList",
+                      "route": "1"
+                  }
+              ],
+              "component": "layouts/RouteView",
+              "id": "5bf5e66d51656f10692b017fc92531c8",
+              "meta": {
+                  "icon": "edit",
+                  "keepAlive": false,
+                  "title": "流程设计"
+              },
+              "name": "flowable-design",
+              "path": "/flowable/design",
+              "route": "1"
+          },
+          {
+              "children": [
+                  {
+                      "component": "modules/workflow/deploy",
+                      "id": "9e199a8db17af069d729a826935632ac",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "流程发布管理"
+                      },
+                      "name": "modules-workflow-deploy",
+                      "path": "/modules/workflow/deploy",
+                      "route": "1"
+                  },
+                  {
+                      "component": "modules/workflow/instance",
+                      "id": "d8ccee0e9004ed8c7ec7a1437b9684dd",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "流程实例"
+                      },
+                      "name": "modules-workflow-instance",
+                      "path": "/modules/workflow/instance",
+                      "route": "1"
+                  },
+                  {
+                      "component": "modules/workflow/historicInstance",
+                      "id": "58d1e147fcd5348eb4606ded518990ee",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "历史流程"
+                      },
+                      "name": "modules-workflow-historicInstance",
+                      "path": "/modules/workflow/historicInstance",
+                      "route": "1"
+                  },
+                  {
+                      "component": "modules/workflow/historicTask",
+                      "id": "158bca16f1982a75cf39546462b206c5",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "历史任务"
+                      },
+                      "name": "modules-workflow-historicTask",
+                      "path": "/modules/workflow/historicTask",
+                      "route": "1"
+                  }
+              ],
+              "component": "layouts/RouteView",
+              "id": "320262479882aeb7a1e06cf1cc026337",
+              "meta": {
+                  "icon": "setting",
+                  "keepAlive": false,
+                  "title": "流程管理"
+              },
+              "name": "workflow-manage",
+              "path": "/workflow/manage",
+              "route": "1"
+          },
+          {
+              "children": [
+                  {
+                      "component": "system/DepartList",
+                      "id": "45c966826eeff4c99b8f8ebfe74511fc",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "部门管理"
+                      },
+                      "name": "isystem-depart",
+                      "path": "/isystem/depart",
+                      "route": "1"
+                  },
+                  {
+                      "component": "system/RoleUserList",
+                      "id": "190c2b43bec6a5f7a4194a85db67d96a",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "角色维护"
+                      },
+                      "name": "isystem-roleUserList",
+                      "path": "/isystem/roleUserList",
+                      "route": "1"
+                  },
+                  {
+                      "component": "system/UserList",
+                      "id": "3f915b2769fc80648e92d04e84ca059d",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "用户管理"
+                      },
+                      "name": "isystem-user",
+                      "path": "/isystem/user",
+                      "route": "1"
+                  },
+                  {
+                      "component": "system/UserAnnouncementList",
+                      "id": "53a9230444d33de28aa11cc108fb1dba",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "我的消息"
+                      },
+                      "name": "isps-userAnnouncement",
+                      "path": "/isps/userAnnouncement",
+                      "route": "1"
+                  },
+                  {
+                      "component": "system/DepartUserList",
+                      "id": "5c2f42277948043026b7a14692456828",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "我的部门"
+                      },
+                      "name": "isystem-departUserList",
+                      "path": "/isystem/departUserList",
+                      "route": "1"
+                  },
+                  {
+                      "component": "system/RoleList",
+                      "id": "e8af452d8948ea49d37c934f5100ae6a",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "角色管理"
+                      },
+                      "name": "isystem-role",
+                      "path": "/isystem/role",
+                      "route": "1"
+                  },
+                  {
+                      "component": "system/PermissionList",
+                      "id": "54dd5457a3190740005c1bfec55b1c34",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "菜单管理"
+                      },
+                      "name": "isystem-permission",
+                      "path": "/isystem/permission",
+                      "route": "1"
+                  },
+                  {
+                      "component": "system/SysCategoryList",
+                      "id": "ebb9d82ea16ad864071158e0c449d186",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "分类字典"
+                      },
+                      "name": "isys-category",
+                      "path": "/isys/category",
+                      "route": "1"
+                  },
+                  {
+                      "component": "system/DictList",
+                      "id": "f1cb187abf927c88b89470d08615f5ac",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "数据字典"
+                      },
+                      "name": "isystem-dict",
+                      "path": "/isystem/dict",
+                      "route": "1"
+                  },
+                  {
+                      "component": "system/SysAnnouncementList",
+                      "id": "e08cb190ef230d5d4f03824198773950",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "系统通告"
+                      },
+                      "name": "isystem-annountCement",
+                      "path": "/isystem/annountCement",
+                      "route": "1"
+                  }
+              ],
+              "component": "layouts/RouteView",
+              "id": "d7d6e2e4e2934f2c9385a623fd98c6f3",
+              "meta": {
+                  "icon": "setting",
+                  "keepAlive": false,
+                  "title": "系统管理"
+              },
+              "name": "isystem",
+              "path": "/isystem",
+              "route": "1"
+          },
+          {
+              "children": [
+                  {
+                      "component": "account/center/Index",
+                      "id": "d86f58e7ab516d3bc6bfb1fe10585f97",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "个人中心"
+                      },
+                      "name": "account-center",
+                      "path": "/account/center",
+                      "route": "1"
+                  },
+                  {
+                      "alwaysShow": true,
+                      "children": [
+                          {
+                              "component": "account/settings/BaseSetting",
+                              "hidden": true,
+                              "id": "1367a93f2c410b169faa7abcbad2f77c",
+                              "meta": {
+                                  "keepAlive": false,
+                                  "title": "基本设置"
+                              },
+                              "name": "account-settings-base",
+                              "path": "/account/settings/base",
+                              "route": "1"
+                          },
+                          {
+                              "component": "account/settings/Binding",
+                              "id": "4f66409ef3bbd69c1d80469d6e2a885e",
+                              "meta": {
+                                  "keepAlive": false,
+                                  "title": "账户绑定"
+                              },
+                              "name": "account-settings-binding",
+                              "path": "/account/settings/binding",
+                              "route": "1"
+                          },
+                          {
+                              "component": "account/settings/Custom",
+                              "id": "882a73768cfd7f78f3a37584f7299656",
+                              "meta": {
+                                  "keepAlive": false,
+                                  "title": "个性化设置"
+                              },
+                              "name": "account-settings-custom",
+                              "path": "/account/settings/custom",
+                              "route": "1"
+                          },
+                          {
+                              "component": "account/settings/Security",
+                              "id": "ec8d607d0156e198b11853760319c646",
+                              "meta": {
+                                  "keepAlive": false,
+                                  "title": "安全设置"
+                              },
+                              "name": "account-settings-security",
+                              "path": "/account/settings/security",
+                              "route": "1"
+                          },
+                          {
+                              "component": "account/settings/Notification",
+                              "id": "fedfbf4420536cacc0218557d263dfea",
+                              "meta": {
+                                  "keepAlive": false,
+                                  "title": "新消息通知"
+                              },
+                              "name": "account-settings-notification",
+                              "path": "/account/settings/notification",
+                              "route": "1"
+                          }
+                      ],
+                      "component": "account/settings/Index",
+                      "id": "6e73eb3c26099c191bf03852ee1310a1",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "个人设置"
+                      },
+                      "name": "account-settings-base",
+                      "path": "/account/settings/base",
+                      "route": "1"
+                  },
+                  {
+                      "component": "dashboard/Workplace",
+                      "id": "8fb8172747a78756c11916216b8b8066",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "工作台"
+                      },
+                      "name": "dashboard-workplace",
+                      "path": "/dashboard/workplace",
+                      "route": "1"
+                  }
+              ],
+              "component": "layouts/RouteView",
+              "id": "717f6bee46f44a3897eca9abd6e2ec44",
+              "meta": {
+                  "icon": "user",
+                  "keepAlive": false,
+                  "title": "个人页"
+              },
+              "name": "account",
+              "path": "/account",
+              "route": "1"
+          },
+          {
+              "children": [
+                  {
+                      "component": "jeecg/report/ArchivesStatisticst",
+                      "id": "2aeddae571695cd6380f6d6d334d6e7d",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "布局统计报表"
+                      },
+                      "name": "report-ArchivesStatisticst",
+                      "path": "/report/ArchivesStatisticst",
+                      "route": "1"
+                  },
+                  {
+                      "component": "jeecg/report/ViserChartDemo",
+                      "id": "020b06793e4de2eee0007f603000c769",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "ViserChartDemo"
+                      },
+                      "name": "report-ViserChartDemo",
+                      "path": "/report/ViserChartDemo",
+                      "route": "1"
+                  }
+              ],
+              "component": "layouts/RouteView",
+              "id": "f0675b52d89100ee88472b6800754a08",
+              "meta": {
+                  "icon": "bar-chart",
+                  "keepAlive": false,
+                  "title": "统计报表"
+              },
+              "name": "report",
+              "path": "/report",
+              "route": "1"
+          },
+          {
+              "children": [
+                  {
+                      "component": "modules/online/cgform/OnlCgformHeadList",
+                      "id": "8d4683aacaa997ab86b966b464360338",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "Online表单开发"
+                      },
+                      "name": "online-cgform",
+                      "path": "/online/cgform",
+                      "route": "1"
+                  },
+                  {
+                      "component": "modules/online/cgform/auto/OnlineDynamicForm",
+                      "hidden": true,
+                      "id": "22d6a3d39a59dd7ea9a30acfa6bfb0a5",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "AUTO动态表单"
+                      },
+                      "name": "online-df-@table-@id",
+                      "path": "/online/df/:table/:id",
+                      "route": "0"
+                  },
+                  {
+                      "component": "modules/online/cgform/auto/OnlCgformAutoList",
+                      "hidden": true,
+                      "id": "54097c6a3cf50fad0793a34beff1efdf",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "AUTO在线表单"
+                      },
+                      "name": "online-cgformList-@code",
+                      "path": "/online/cgformList/:code",
+                      "route": "1"
+                  },
+                  {
+                      "component": "modules/online/cgform/auto/OnlCgformTreeList",
+                      "hidden": true,
+                      "id": "fba41089766888023411a978d13c0aa4",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "AUTO树表单列表"
+                      },
+                      "name": "online-cgformTreeList-@code",
+                      "path": "/online/cgformTreeList/:code",
+                      "route": "1"
+                  }
+              ],
+              "component": "layouts/RouteView",
+              "id": "e41b69c57a941a3bbcce45032fe57605",
+              "meta": {
+                  "icon": "cloud",
+                  "keepAlive": false,
+                  "title": "在线开发"
+              },
+              "name": "online",
+              "path": "/online",
+              "route": "1"
+          },
+          {
+              "children": [
+                  {
+                      "children": [
+                          {
+                              "component": "modules/monitor/RedisInfo",
+                              "id": "8d1ebd663688965f1fd86a2f0ead3416",
+                              "meta": {
+                                  "keepAlive": false,
+                                  "title": "Redis监控"
+                              },
+                              "name": "monitor-redis-info",
+                              "path": "/monitor/redis/info",
+                              "route": "1"
+                          },
+                          {
+                              "component": "modules/monitor/TomcatInfo",
+                              "id": "024f1fd1283dc632458976463d8984e1",
+                              "meta": {
+                                  "keepAlive": false,
+                                  "title": "Tomcat信息"
+                              },
+                              "name": "monitor-TomcatInfo",
+                              "path": "/monitor/TomcatInfo",
+                              "route": "1"
+                          },
+                          {
+                              "component": "modules/monitor/SystemInfo",
+                              "id": "8b3bff2eee6f1939147f5c68292a1642",
+                              "meta": {
+                                  "keepAlive": false,
+                                  "title": "服务器信息"
+                              },
+                              "name": "monitor-SystemInfo",
+                              "path": "/monitor/SystemInfo",
+                              "route": "1"
+                          },
+                          {
+                              "component": "modules/monitor/JvmInfo",
+                              "id": "d07a2c87a451434c99ab06296727ec4f",
+                              "meta": {
+                                  "keepAlive": false,
+                                  "title": "JVM信息"
+                              },
+                              "name": "monitor-JvmInfo",
+                              "path": "/monitor/JvmInfo",
+                              "route": "1"
+                          },
+                          {
+                              "component": "modules/monitor/HttpTrace",
+                              "id": "fc810a2267dd183e4ef7c71cc60f4670",
+                              "meta": {
+                                  "keepAlive": false,
+                                  "title": "请求追踪"
+                              },
+                              "name": "monitor-HttpTrace",
+                              "path": "/monitor/HttpTrace",
+                              "route": "1"
+                          },
+                          {
+                              "component": "modules/monitor/DiskMonitoring",
+                              "id": "97c8629abc7848eccdb6d77c24bb3ebb",
+                              "meta": {
+                                  "keepAlive": false,
+                                  "title": "磁盘监控"
+                              },
+                              "name": "monitor-Disk",
+                              "path": "/monitor/Disk",
+                              "route": "1"
+                          }
+                      ],
+                      "component": "layouts/RouteView",
+                      "id": "700b7f95165c46cc7a78bf227aa8fed3",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "性能监控"
+                      },
+                      "name": "monitor",
+                      "path": "/monitor",
+                      "route": "1"
+                  },
+                  {
+                      "component": "layouts/IframePageView",
+                      "id": "aedbf679b5773c1f25e9f7b10111da73",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "SQL监控",
+                          "url": "{{ window._CONFIG['domianURL'] }}/druid/"
+                      },
+                      "name": "{{ window._CONFIG['domianURL'] }}-druid-",
+                      "path": "5f22d2592b01c9e964efe70040162b83",
+                      "route": "1"
+                  },
+                  {
+                      "component": "system/LogList",
+                      "id": "58857ff846e61794c69208e9d3a85466",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "日志管理"
+                      },
+                      "name": "isystem-log",
+                      "path": "/isystem/log",
+                      "route": "1"
+                  },
+                  {
+                      "component": "system/DataLogList",
+                      "id": "841057b8a1bef8f6b4b20f9a618a7fa6",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "数据日志"
+                      },
+                      "name": "sys-dataLog-list",
+                      "path": "/sys/dataLog-list",
+                      "route": "1"
+                  },
+                  {
+                      "component": "layouts/IframePageView",
+                      "id": "2dbbafa22cda07fa5d169d741b81fe12",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "在线文档",
+                          "url": "{{ window._CONFIG['domianURL'] }}/doc.html"
+                      },
+                      "name": "{{ window._CONFIG['domianURL'] }}-doc.html",
+                      "path": "10b80437abc6eee8c3e3daabb5e9f59e",
+                      "route": "1"
+                  },
+                  {
+                      "component": "system/QuartzJobList",
+                      "id": "b1cb0a3fedf7ed0e4653cb5a229837ee",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "定时任务"
+                      },
+                      "name": "isystem-QuartzJobList",
+                      "path": "/isystem/QuartzJobList",
+                      "route": "1"
+                  }
+              ],
+              "component": "layouts/RouteView",
+              "id": "08e6b9dc3c04489c8e1ff2ce6f105aa4",
+              "meta": {
+                  "icon": "dashboard",
+                  "keepAlive": false,
+                  "title": "系统监控"
+              },
+              "name": "dashboard3",
+              "path": "/dashboard3",
+              "route": "1"
+          },
+          {
+              "children": [
+                  {
+                      "component": "modules/message/SysMessageList",
+                      "id": "944abf0a8fc22fe1f1154a389a574154",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "消息管理"
+                      },
+                      "name": "modules-message-sysMessageList",
+                      "path": "/modules/message/sysMessageList",
+                      "route": "1"
+                  },
+                  {
+                      "component": "modules/message/SysMessageTemplateList",
+                      "id": "f780d0d3083d849ccbdb1b1baee4911d",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "模板管理"
+                      },
+                      "name": "modules-message-sysMessageTemplateList",
+                      "path": "/modules/message/sysMessageTemplateList",
+                      "route": "1"
+                  }
+              ],
+              "component": "layouts/RouteView",
+              "id": "5c8042bd6c601270b2bbd9b20bccc68b",
+              "meta": {
+                  "icon": "message",
+                  "keepAlive": false,
+                  "title": "消息中心"
+              },
+              "name": "message",
+              "path": "/message",
+              "route": "1"
+          },
+          {
+              "children": [
+                  {
+                      "component": "jeecg/JeecgDemoList",
+                      "id": "4148ec82b6acd69f470bea75fe41c357",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "单表模型示例"
+                      },
+                      "name": "DemoList",
+                      "path": "/jeecg/jeecgDemoList",
+                      "route": "1"
+                  },
+                  {
+                      "component": "jeecg/TableExpandeSub",
+                      "id": "4356a1a67b564f0988a484f5531fd4d9",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "内嵌Table"
+                      },
+                      "name": "jeecg-TableExpandeSub",
+                      "path": "/jeecg/TableExpandeSub",
+                      "route": "1"
+                  },
+                  {
+                      "component": "jeecg/ImagPreview",
+                      "id": "655563cd64b75dcf52ef7bcdd4836953",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "图片预览"
+                      },
+                      "name": "jeecg-ImagPreview",
+                      "path": "/jeecg/ImagPreview",
+                      "route": "1"
+                  },
+                  {
+                      "component": "jeecg/SelectDemo",
+                      "id": "9a90363f216a6a08f32eecb3f0bf12a3",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "常用选择组件"
+                      },
+                      "name": "jeecg-SelectDemo",
+                      "path": "/jeecg/SelectDemo",
+                      "route": "1"
+                  },
+                  {
+                      "component": "dev/DevDemoList",
+                      "id": "ca44fe34989e11efe79c960475842447",
+                      "meta": {
+                          "icon": "radar-chart",
+                          "keepAlive": false,
+                          "title": "开发测试"
+                      },
+                      "name": "DevDemoList",
+                      "path": "/DevDemoList",
+                      "route": "1"
+                  },
+                  {
+                      "component": "jeecg/tablist/JeecgOrderDMainList",
+                      "id": "6ad53fd1b220989a8b71ff482d683a5a",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "一对多Tab示例"
+                      },
+                      "name": "jeecg-tablist-JeecgOrderDMainList",
+                      "path": "/jeecg/tablist/JeecgOrderDMainList",
+                      "route": "1"
+                  },
+                  {
+                      "component": "jeecg/JeecgOrderMainList",
+                      "id": "fb367426764077dcf94640c843733985",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "一对多示例"
+                      },
+                      "name": "jeecg-JeecgOrderMainList",
+                      "path": "/jeecg/JeecgOrderMainList",
+                      "route": "1"
+                  },
+                  {
+                      "component": "jeecg/helloworld",
+                      "id": "b6836b65664ab283418d80dae82e5f3e",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "Jeecg-Boot"
+                      },
+                      "name": "jeecg-helloworld",
+                      "path": "/jeecg/helloworld",
+                      "route": "1"
+                  },
+                  {
+                      "component": "jeecg/PrintDemo",
+                      "id": "e6bfd1fcabfd7942fdd05f076d1dad38",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "打印测试"
+                      },
+                      "name": "jeecg-PrintDemo",
+                      "path": "/jeecg/PrintDemo",
+                      "route": "1"
+                  },
+                  {
+                      "component": "jeecg/TableTotal",
+                      "id": "043780fa095ff1b2bec4dc406d76f023",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "表格合计"
+                      },
+                      "name": "jeecg-tableTotal",
+                      "path": "/jeecg/tableTotal",
+                      "route": "1"
+                  },
+                  {
+                      "component": "jeecg/JeecgTreeTable",
+                      "id": "0620e402857b8c5b605e1ad9f4b89350",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "异步树列表Demo"
+                      },
+                      "name": "jeecg-JeecgTreeTable",
+                      "path": "/jeecg/JeecgTreeTable",
+                      "route": "1"
+                  },
+                  {
+                      "component": "jeecg/JeecgOrderMainListForJEditableTable",
+                      "id": "c431130c0bc0ec71b0a5be37747bb36a",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "一对多JEditable"
+                      },
+                      "name": "jeecg-JeecgOrderMainListForJEditableTable",
+                      "path": "/jeecg/JeecgOrderMainListForJEditableTable",
+                      "route": "1"
+                  },
+                  {
+                      "component": "jeecg/JeecgPdfView",
+                      "id": "e1979bb53e9ea51cecc74d86fd9d2f64",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "PDF预览"
+                      },
+                      "name": "jeecg-jeecgPdfView",
+                      "path": "/jeecg/jeecgPdfView",
+                      "route": "1"
+                  },
+                  {
+                      "component": "jeecg/helloworld",
+                      "id": "339329ed54cf255e1f9392e84f136901",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "helloworld"
+                      },
+                      "name": "jeecg-helloworld",
+                      "path": "/jeecg/helloworld",
+                      "route": "1"
+                  },
+                  {
+                      "component": "layouts/IframePageView",
+                      "id": "a400e4f4d54f79bf5ce160ae432231af",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "百度",
+                          "url": "http://www.baidu.com"
+                      },
+                      "name": "http@--www.baidu.com",
+                      "path": "bfa89e563d9509fbc5c6503dd50faf2e",
+                      "route": "1"
+                  },
+                  {
+                      "component": "jeecg/ImgDragSort",
+                      "id": "265de841c58907954b8877fb85212622",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "图片拖拽排序"
+                      },
+                      "name": "jeecg-imgDragSort",
+                      "path": "/jeecg/imgDragSort",
+                      "route": "1"
+                  },
+                  {
+                      "component": "jeecg/ImgTurnPage",
+                      "id": "58b9204feaf07e47284ddb36cd2d8468",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "图片翻页"
+                      },
+                      "name": "jeecg-imgTurnPage",
+                      "path": "/jeecg/imgTurnPage",
+                      "route": "1"
+                  },
+                  {
+                      "component": "jeecg/InterfaceTest",
+                      "id": "c6cf95444d80435eb37b2f9db3971ae6",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "数据回执模拟"
+                      },
+                      "name": "jeecg-InterfaceTest",
+                      "path": "/jeecg/InterfaceTest",
+                      "route": "1"
+                  },
+                  {
+                      "component": "jeecg/SplitPanel",
+                      "id": "3fac0d3c9cd40fa53ab70d4c583821f8",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "分屏"
+                      },
+                      "name": "jeecg-splitPanel",
+                      "path": "/jeecg/splitPanel",
+                      "route": "1"
+                  },
+                  {
+                      "component": "jeecg/JeecgEditableTableExample",
+                      "id": "7960961b0063228937da5fa8dd73d371",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "JEditableTable示例"
+                      },
+                      "name": "jeecg-JEditableTable",
+                      "path": "/jeecg/JEditableTable",
+                      "route": "1"
+                  }
+              ],
+              "component": "layouts/RouteView",
+              "id": "2a470fc0c3954d9dbb61de6d80846549",
+              "meta": {
+                  "icon": "qrcode",
+                  "keepAlive": false,
+                  "title": "常见案例"
+              },
+              "name": "jeecg",
+              "path": "/jeecg",
+              "route": "1"
+          },
+          {
+              "children": [
+                  {
+                      "component": "exception/403",
+                      "id": "65a8f489f25a345836b7f44b1181197a",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "403"
+                      },
+                      "name": "exception-403",
+                      "path": "/exception/403",
+                      "route": "1"
+                  },
+                  {
+                      "component": "exception/404",
+                      "id": "d2bbf9ebca5a8fa2e227af97d2da7548",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "404"
+                      },
+                      "name": "exception-404",
+                      "path": "/exception/404",
+                      "route": "1"
+                  },
+                  {
+                      "component": "exception/500",
+                      "id": "b4dfc7d5dd9e8d5b6dd6d4579b1aa559",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "500"
+                      },
+                      "name": "exception-500",
+                      "path": "/exception/500",
+                      "route": "1"
+                  }
+              ],
+              "component": "layouts/RouteView",
+              "id": "c65321e57b7949b7a975313220de0422",
+              "meta": {
+                  "icon": "warning",
+                  "keepAlive": false,
+                  "title": "异常页"
+              },
+              "name": "exception",
+              "path": "/exception",
+              "route": "1"
+          },
+          {
+              "children": [
+                  {
+                      "component": "result/Success",
+                      "id": "00a2a0ae65cdca5e93209cdbde97cbe6",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "成功"
+                      },
+                      "name": "result-success",
+                      "path": "/result/success",
+                      "route": "1"
+                  },
+                  {
+                      "component": "result/Error",
+                      "id": "13212d3416eb690c2e1d5033166ff47a",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "失败"
+                      },
+                      "name": "result-fail",
+                      "path": "/result/fail",
+                      "route": "1"
+                  }
+              ],
+              "component": "layouts/PageView",
+              "id": "2e42e3835c2b44ec9f7bc26c146ee531",
+              "meta": {
+                  "icon": "check-circle-o",
+                  "keepAlive": false,
+                  "title": "结果页"
+              },
+              "name": "result",
+              "path": "/result",
+              "route": "1"
+          },
+          {
+              "children": [
+                  {
+                      "component": "profile/basic/Index",
+                      "id": "cc50656cf9ca528e6f2150eba4714ad2",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "基础详情页"
+                      },
+                      "name": "profile-basic",
+                      "path": "/profile/basic",
+                      "route": "1"
+                  },
+                  {
+                      "component": "profile/advanced/Advanced",
+                      "id": "b3c824fc22bd953e2eb16ae6914ac8f9",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "高级详情页"
+                      },
+                      "name": "profile-advanced",
+                      "path": "/profile/advanced",
+                      "route": "1"
+                  }
+              ],
+              "component": "layouts/RouteView",
+              "id": "4875ebe289344e14844d8e3ea1edd73f",
+              "meta": {
+                  "icon": "profile",
+                  "keepAlive": false,
+                  "title": "详情页"
+              },
+              "name": "profile",
+              "path": "/profile",
+              "route": "1"
+          },
+          {
+              "children": [
+                  {
+                      "component": "list/TableList",
+                      "id": "418964ba087b90a84897b62474496b93",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "查询表格"
+                      },
+                      "name": "list-query-list",
+                      "path": "/list/query-list",
+                      "route": "1"
+                  },
+                  {
+                      "component": "list/TableInnerEditList",
+                      "id": "ae4fed059f67086fd52a73d913cf473d",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "内联编辑表格"
+                      },
+                      "name": "list-edit-table",
+                      "path": "/list/edit-table",
+                      "route": "1"
+                  },
+                  {
+                      "component": "list/UserList",
+                      "id": "05b3c82ddb2536a4a5ee1a4c46b5abef",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "用户列表"
+                      },
+                      "name": "list-user-list",
+                      "path": "/list/user-list",
+                      "route": "1"
+                  },
+                  {
+                      "component": "list/RoleList",
+                      "id": "4f84f9400e5e92c95f05b554724c2b58",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "角色列表"
+                      },
+                      "name": "list-role-list",
+                      "path": "/list/role-list",
+                      "route": "1"
+                  },
+                  {
+                      "component": "list/PermissionList",
+                      "id": "73678f9daa45ed17a3674131b03432fb",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "权限列表"
+                      },
+                      "name": "list-permission-list",
+                      "path": "/list/permission-list",
+                      "route": "1"
+                  },
+                  {
+                      "component": "list/StandardList",
+                      "id": "f23d9bfff4d9aa6b68569ba2cff38415",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "标准列表"
+                      },
+                      "name": "list-basic-list",
+                      "path": "/list/basic-list",
+                      "route": "1"
+                  },
+                  {
+                      "component": "list/CardList",
+                      "id": "7ac9eb9ccbde2f7a033cd4944272bf1e",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "卡片列表"
+                      },
+                      "name": "list-card",
+                      "path": "/list/card",
+                      "route": "1"
+                  },
+                  {
+                      "children": [
+                          {
+                              "component": "list/TableList",
+                              "id": "078f9558cdeab239aecb2bda1a8ed0d1",
+                              "meta": {
+                                  "keepAlive": false,
+                                  "title": "搜索列表（文章）"
+                              },
+                              "name": "list-search-article",
+                              "path": "/list/search/article",
+                              "route": "1"
+                          },
+                          {
+                              "component": "list/TableList",
+                              "id": "200006f0edf145a2b50eacca07585451",
+                              "meta": {
+                                  "keepAlive": false,
+                                  "title": "搜索列表（应用）"
+                              },
+                              "name": "list-search-application",
+                              "path": "/list/search/application",
+                              "route": "1"
+                          },
+                          {
+                              "component": "list/TableList",
+                              "id": "de13e0f6328c069748de7399fcc1dbbd",
+                              "meta": {
+                                  "keepAlive": false,
+                                  "title": "搜索列表（项目）"
+                              },
+                              "name": "list-search-project",
+                              "path": "/list/search/project",
+                              "route": "1"
+                          }
+                      ],
+                      "component": "list/search/SearchLayout",
+                      "id": "fb07ca05a3e13674dbf6d3245956da2e",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "搜索列表"
+                      },
+                      "name": "list-search",
+                      "path": "/list/search",
+                      "route": "1"
+                  }
+              ],
+              "component": "layouts/PageView",
+              "id": "540a2936940846cb98114ffb0d145cb8",
+              "meta": {
+                  "icon": "table",
+                  "keepAlive": false,
+                  "title": "列表页"
+              },
+              "name": "list",
+              "path": "/list",
+              "redirect": "/list/query-list",
+              "route": "1"
+          },
+          {
+              "children": [
+                  {
+                      "component": "test/SysSmsList",
+                      "id": "5cbe809da47757c378963159d11fc0cc",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "短信息"
+                      },
+                      "name": "test-SysSmsList",
+                      "path": "/test/SysSmsList",
+                      "route": "1"
+                  }
+              ],
+              "component": "layouts/RouteView",
+              "id": "94b213a31bc6b8e63dc9986824a7667e",
+              "meta": {
+                  "icon": "github",
+                  "keepAlive": false,
+                  "title": "测试页面"
+              },
+              "name": "test",
+              "path": "/test",
+              "route": "1"
+          },
+          {
+              "children": [
+                  {
+                      "component": "form/BasicForm",
+                      "id": "277bfabef7d76e89b33062b16a9a5020",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "基础表单"
+                      },
+                      "name": "form-base-form",
+                      "path": "/form/base-form",
+                      "route": "1"
+                  },
+                  {
+                      "component": "form/stepForm/StepForm",
+                      "id": "6531cf3421b1265aeeeabaab5e176e6d",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "分步表单"
+                      },
+                      "name": "form-step-form",
+                      "path": "/form/step-form",
+                      "route": "1"
+                  },
+                  {
+                      "component": "form/advancedForm/AdvancedForm",
+                      "id": "e5973686ed495c379d829ea8b2881fc6",
+                      "meta": {
+                          "keepAlive": false,
+                          "title": "高级表单"
+                      },
+                      "name": "form-advanced-form",
+                      "path": "/form/advanced-form",
+                      "route": "1"
+                  }
+              ],
+              "component": "layouts/PageView",
+              "id": "e3c13679c73a4f829bcff2aba8fd68b1",
+              "meta": {
+                  "icon": "form",
+                  "keepAlive": false,
+                  "title": "表单页"
+              },
+              "name": "form",
+              "path": "/form",
+              "route": "1"
+          }
+      ]
+  },
+  "success": true,
+  "timestamp": 1570254525475
+}

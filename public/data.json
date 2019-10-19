@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "message": "查询成功",
+  "code": 200,
+  "result": {
+    "allAuth": [
+      {
+        "action": "user:form:phone",
+        "describe": "手机号禁用",
+        "type": "2",
+        "status": "1"
+      },
+      {
+        "action": "user:add",
+        "describe": "添加用户按钮",
+        "type": "1",
+        "status": "1"
+      }
+    ],
+    "auth": [
+      {
+        "action": "user:form:phone",
+        "describe": "手机号禁用",
+        "type": "2"
+      },
+      {
+        "action": "user:add",
+        "describe": "添加用户按钮",
+        "type": "1"
+      }
+    ],
+    "menu": [
+      {
+        "name": "testdemo",
+        "path": "/system/test/demo",
+        "redirect": "http://www.qq.com"
+      },
+      {
+        "name": "list",
+        "path": "/list"
+      },
+      {
+        "name": "basic-list",
+        "path": "list/basic-list"
+      },
+      {
+        "name": "basic-form",
+        "path": "/form/basic-form"
+      },
+      {
+        "name": "management",
+        "path": "/system/role-management"
+      },
+      {
+        "name": "organization",
+        "path": "/system/organization"
+      },
+      {
+        "name": "success",
+        "path": "/result/success"
+      }
+    ]
+  },
+  "timestamp": 1569591880908
+}
